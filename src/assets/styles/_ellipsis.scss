@@ -1,0 +1,23 @@
+@mixin wrap($is-wrap: true) {
+  @if $is-wrap=true {
+    word-wrap: break-word;
+    word-break: break-all;
+  } @else {
+    white-space: nowrap;
+  }
+}
+
+@mixin ellipsis($width: null, $line-clamp: 1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: $width;
+
+  @if abs($line-clamp) >1 {
+    display: -webkit-box !important;
+    -webkit-line-clamp: $line-clamp;
+    @include flex-direction(column);
+    @include wrap;
+  } @else {
+    @include wrap(false);
+  }
+}

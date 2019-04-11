@@ -1,0 +1,71 @@
+.shop-item {
+  background-color: #ffffff;
+  display: flex;
+  padding: 0.1rem 0;
+  margin: 0.1rem 0;
+  width: 100%;
+
+  .shop-img {
+    width: 30%;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+  }
+
+  .shop-info {
+    width: 70%;
+    padding: 0.05rem 0.1rem 0.05rem 0;
+    position: relative;
+
+    .shop-title {
+      font-size: 0.16rem;
+    }
+  }
+
+  .price {
+    color: #ff464e;
+    font-size: 0.15rem;
+    position: absolute;
+    bottom: 0.05rem;
+    width: 100%;
+  }
+
+  .del-price {
+    color: #bbb;
+    font-size: 0.12rem;
+    text-decoration: line-through;
+    margin-left: 8px;
+  }
+
+  .shop-num {
+    color: #bbb;
+    position: absolute;
+    right: 0.1rem;
+  }
+}
+
+.edit-num {
+  position: absolute;
+  bottom: 0.05rem;
+  right: 0.1rem;
+  text-align: right;
+  height: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+
+  .num {
+    width: 25%;
+    text-align: center;
+    height: 100%;
+  }
+
+  span {
+    display: inline-block;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,68 @@
+.login-box {
+  #head {
+    height: .55rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .go-back {
+      position: absolute;
+      display: inline-block;
+      padding: .12rem;
+    }
+  }
+
+  .userTop {
+    color: #fff;
+    background: linear-gradient(150deg, #ff5a61 50%, #fd631c);
+
+    p {
+      height: .55rem;
+      line-height: .55rem;
+    }
+
+    .register-btn {
+      position: absolute;
+      right: .2rem;
+      top: 0;
+      display: inline-block;
+      height: .55rem;
+      line-height: .55rem;
+      font-size: .17rem;
+    }
+  }
+
+  #t-index {
+    font-size: .21rem;
+    text-align: center;
+  }
+
+  #register {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: .3rem .15rem;
+
+    input {
+      height: .5rem;
+      line-height: .55rem;
+      border: none;
+      margin-top: .1rem;
+      font-size: .18rem;
+      padding: 0 .1rem;
+    }
+  }
+
+  .login-btn {
+    height: .55rem;
+    margin-top: .4rem;
+    line-height: .55rem;
+    background-color: #ff464e;
+    font-size: .21rem;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+}

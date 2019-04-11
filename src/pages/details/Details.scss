@@ -1,0 +1,49 @@
+.details-box {
+  .pro_img {
+    width: 100%;
+  }
+
+  .pro_info {
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.15rem 0.12rem;
+
+    .price {
+      color: #ff464e;
+      font-size: 0.24rem;
+    }
+
+    .del-price {
+      color: #bbb;
+      font-size: 0.12rem;
+      text-decoration: line-through;
+      margin-left: 8px;
+    }
+
+    .yuan {
+      font-size: 0.15rem;
+    }
+
+    .title {
+      font-size: 0.17rem;
+      margin: 0.15rem 0;
+    }
+
+    .join-number {
+      color: #999;
+      font-size: 0.12rem;
+      float: right;
+      position: relative;
+      top: 0.1rem;
+    }
+  }
+
+  #addCart {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 0.5rem;
+  }
+}

@@ -1,0 +1,2 @@
+export const GET_SUBCATE_INFO = 'GET_SUBCATE_INFO';
+export const GET_SUBCATE_LIST = 'GET_SUBCATE_LIST';

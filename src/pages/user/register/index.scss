@@ -1,0 +1,59 @@
+.register-box {
+  background-color: #fff;
+  height: 100%;
+
+  #head {
+    height: 0.55rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .go-back {
+      position: absolute;
+      display: inline-block;
+      padding: 0.12rem;
+      z-index: 9;
+    }
+  }
+
+  .userTop {
+    p {
+      height: 0.55rem;
+      line-height: 0.55rem;
+    }
+  }
+
+  #t-index {
+    font-size: 0.21rem;
+    text-align: center;
+  }
+
+  #register {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.3rem 0.15rem;
+
+    input {
+      height: 0.5rem;
+      line-height: 0.55rem;
+      border: none;
+      margin-top: 0.1rem;
+      font-size: 0.18rem;
+      padding: 0 0.1rem;
+    }
+  }
+
+  .register-btn {
+    height: 0.55rem;
+    margin-top: 0.4rem;
+    line-height: 0.55rem;
+    background-color: #ff464e;
+    font-size: 0.21rem;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+  }
+}

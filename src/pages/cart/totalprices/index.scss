@@ -1,0 +1,52 @@
+.total-prices-box {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.16rem;
+
+  .checkall-text {
+    color: #333;
+    display: inline-block;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin-left: 0.1rem;
+  }
+
+  span {
+    color: #ff464e;
+  }
+
+  .total-prices,
+  .total-cart {
+    height: 100%;
+
+    .cart-btn {
+      margin-left: 0.1rem;
+    }
+  }
+
+  .cart-btn {
+    display: inline-block;
+    width: 1.2rem;
+    background-color: #ff464e;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    font-size: 0.16rem;
+    line-height: 0.5rem;
+  }
+
+  .check-box {
+    display: flex;
+
+    .mint-checkbox-core,
+    .check-btn {
+      left: 0.1rem;
+    }
+
+    .check-btn {
+      top: 0.25rem;
+    }
+  }
+}

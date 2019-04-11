@@ -1,0 +1,37 @@
+.classify-container {
+  overflow: auto;
+
+  .list-left {
+    float: left;
+    width: 25%;
+    background: #f9f9f9;
+    overflow: hidden;
+
+    li {
+      height: 45px;
+      line-height: 45px;
+      text-indent: 15px;
+      font-size: 15px;
+      display: block;
+      border-left: 2px solid #f9f9f9;
+      text-decoration: none;
+
+      &.active {
+        border-left: 2px solid #ff464e;
+        color: #ff464e;
+        background-color: #fff;
+      }
+    }
+  }
+
+  .list-right {
+    float: left;
+    width: 71%;
+    padding-left: 4%;
+  }
+
+  .classify-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

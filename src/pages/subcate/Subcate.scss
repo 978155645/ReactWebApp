@@ -1,0 +1,16 @@
+.subcate-block {
+  .subcate-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .h-title {
+    cursor: default;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+  }
+}

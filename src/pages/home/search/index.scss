@@ -1,0 +1,42 @@
+.search-box {
+  height: 0.4rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.12rem;
+
+  .search {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    height: 0.25rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-logo {
+    width: 0.2rem;
+    margin-left: 0.05rem;
+  }
+
+  .search-img {
+    img {
+      width: 0.2rem;
+    }
+  }
+
+  span {
+    color: rgb(153, 153, 153);
+    font-size: 0.12rem;
+    margin: 0 0.02rem;
+  }
+
+  .classify {
+    width: 0.38rem;
+
+    img {
+      width: 0.38rem;
+    }
+  }
+}

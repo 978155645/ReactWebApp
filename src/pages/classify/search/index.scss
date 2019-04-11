@@ -1,0 +1,23 @@
+.classify-search-box {
+  padding: 0.1rem 0;
+  height: 0.4rem;
+
+  .search {
+    margin: 0 0.1rem;
+    border: 1px #bbbbbb solid;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 0.35rem;
+    display: flex;
+    align-items: center;
+
+    span {
+      font-size: 0.15rem;
+      color: #999;
+    }
+
+    img {
+      width: 0.2rem;
+    }
+  }
+}
