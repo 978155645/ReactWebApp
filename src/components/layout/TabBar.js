@@ -5,8 +5,6 @@ import getHome from 'utils/store-getter/getHome';
 
 class Nav extends Component {
   shouldComponentUpdate(nextProps, nextState) {
-    console.log('nextProps', nextProps);
-    console.log('nextState', nextState);
     return true;
   }
 
